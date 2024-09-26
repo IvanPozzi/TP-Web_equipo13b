@@ -1,0 +1,18 @@
+﻿label {
+    margin-right: 20px; /* Espacio a la derecha de los labels */
+    display: inline-block;
+}
+
+input[type="text"] {
+    margin-left: 10px; /* Espacio a la izquierda de los textboxes */
+}
+.checkbox-spacing {
+    margin-top: 20px; /* Espacio a la derecha del Checkbox */
+    margin-bottom: 20px; /* Espacio en la parte inferior, si es necesario */
+}
+
+/* Margen para Botones */
+.button-spacing {
+    margin-top: 10px; /* Espacio por encima del Botón */
+    margin-left: 10px; /* Espacio a la izquierda del Botón, si es necesario */
+}

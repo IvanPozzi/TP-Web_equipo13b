@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|c:\\users\\usuario\\source\\repos\\tp web [promo web]\\trabajo practico n4\\datosdelparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosdelparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\content\\margenlabelytextbox.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\margenlabelytextbox.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\content\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\content\\espaciomargen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\espaciomargen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\content\\boton.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\boton.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\eligetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\eligetupremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\trabajo practico n4\\site.mobile.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\site.mobile.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "margenlabelytextbox.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\margenlabelytextbox.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\margenlabelytextbox.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\margenlabelytextbox.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\margenlabelytextbox.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T20:49:45.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datosdelparticipante.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Datosdelparticipante.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\Datosdelparticipante.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T19:10:46.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "boton.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\boton.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\boton.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\boton.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\boton.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T18:48:52.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\Site.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\Site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T18:47:18.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StyleSheet1.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\StyleSheet1.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\StyleSheet1.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\StyleSheet1.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\StyleSheet1.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T18:38:50.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "espaciomargen.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\espaciomargen.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\espaciomargen.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\espaciomargen.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\espaciomargen.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T19:25:58.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\About.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\About.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\About.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T18:09:24.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "eligetupremio.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\eligetupremio.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\eligetupremio.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\eligetupremio.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\eligetupremio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T18:58:28.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Contact.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Contact.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Contact.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T18:11:28.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewSwitcher.ascx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\ViewSwitcher.ascx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\ViewSwitcher.ascx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\ViewSwitcher.ascx",
+              "RelativeToolTip": "Trabajo practico N4\\ViewSwitcher.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-09-26T18:11:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Default.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T17:21:10.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site.Mobile.Master",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Mobile.Master",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Site.Mobile.Master",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Mobile.Master",
+              "RelativeToolTip": "Trabajo practico N4\\Site.Mobile.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T17:18:43.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Master",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Site.Master",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Master",
+              "RelativeToolTip": "Trabajo practico N4\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-26T17:16:39.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

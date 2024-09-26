@@ -1,0 +1,12 @@
+﻿.customButton {
+    background-color: #4a90e2; /* Color de fondo azul claro */
+    color: white; /* Color de texto blanco */
+    border: none; /* Elimina el borde predeterminado */
+    
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+    .customButton:hover {
+        background-color: #357ABD; /* Cambia a un tono más oscuro cuando se pasa el ratón */
+    }
