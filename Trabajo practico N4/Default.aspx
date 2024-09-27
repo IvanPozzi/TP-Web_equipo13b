@@ -16,7 +16,7 @@
               Para canjear tu voucher, dirígete al menú principal y selecciona la opción "Canjear Voucher". Alternativamente, puedes hacer clic en el botón que se encuentra justo debajo para completar el proceso de manera rápida y sencilla.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">click aca! &raquo;</a>
+                    <a class="btn btn-default" href="/About.aspx">click aca! &raquo;</a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">
