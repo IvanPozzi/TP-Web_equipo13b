@@ -14,7 +14,7 @@
         <div class="spacing">
         <asp:Label ID="LabelDNI" runat="server" Text="DNI:"></asp:Label>
             <div>
-        <asp:TextBox ID="TexboxDNI" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TexboxDNI" runat="server" OnTextChanged="TexDocumento_TextChanged" AutoPostBack="true"></asp:TextBox>
             </div>
         </div >
 
@@ -27,7 +27,7 @@
                     
                
                     <div >
-                    <asp:TextBox ID="TextBoxnombre" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxnombre" runat="server" OnTextChanged="TexDocumento_TextChanged" AutoPostBack="true"></asp:TextBox>
                     </div>
                </div>
             

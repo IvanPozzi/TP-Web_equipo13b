@@ -1,12 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\TP Web [Promo Web]\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|c:\\users\\usuario\\onedrive\\escritorio\\tp web [promo web]\\trabajo practico n4\\datosdelparticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosdelparticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\datosdelparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosdelparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datosdelparticipante.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx.cs",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Datosdelparticipante.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx.cs",
+              "RelativeToolTip": "Trabajo practico N4\\Datosdelparticipante.aspx.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwDsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:11:19.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Clientenegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Clientenegocio.cs",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Clientenegocio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Clientenegocio.cs",
+              "RelativeToolTip": "Trabajo practico N4\\Clientenegocio.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwEcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:09:07.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Datosdelparticipante.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Datosdelparticipante.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Datosdelparticipante.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\Datosdelparticipante.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T00:59:23.372Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
