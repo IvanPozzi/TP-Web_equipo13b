@@ -10,6 +10,10 @@
         <h3>Ingresa el codigo de tu voucher!</h3>
         <p>ingresa el codigo , luego presiona en el boton siguiente.</p>
         <asp:TextBox ID="Texcodigovoucher" runat="server"></asp:TextBox>
-        <asp:Button ID="Btnsiguiente" runat="server" Text="Siguiente" CssClass="customButton"/>
-    </main>
+        <asp:Button ID="Btnsiguiente" runat="server" Text="Siguiente" CssClass="customButton" OnClick="Btnsiguiente_Click"/>
+       
+        <div>
+        <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+        </div>
+        </main>
 </asp:Content>

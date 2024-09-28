@@ -258,6 +258,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
     <Compile Include="voucher.cs" />
+    <Compile Include="VoucherNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
