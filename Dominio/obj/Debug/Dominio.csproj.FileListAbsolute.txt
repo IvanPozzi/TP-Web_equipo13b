@@ -1,0 +1,12 @@
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\bin\Debug\Dominio.dll
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\obj\Debug\Dominio.dll
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\Trabajo-practico-N2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\bin\Debug\Dominio.dll
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\bin\Debug\Dominio.pdb
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\obj\Debug\Dominio.dll
+C:\Users\RTECH\OneDrive\Escritorio\Sam\TUP\Programacion\Programacion-3\TP-Web_equipo13b\Dominio\obj\Debug\Dominio.pdb

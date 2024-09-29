@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
-using static Trabajo_practico_N4.AcsesoDatos;
+using Dominio;
 
-namespace Trabajo_practico_N4
+namespace Negocio
 {
     public class ClienteNegocio
     {
@@ -17,7 +17,7 @@ namespace Trabajo_practico_N4
         }
 
         
-        public cliente ObtenerClientePorDNI(string documento)
+        public Cliente ObtenerClientePorDNI(string documento)
         {
             if (string.IsNullOrWhiteSpace(documento))
             {
@@ -28,7 +28,7 @@ namespace Trabajo_practico_N4
             accesoDatos.setearConsulta(consulta);
             accesoDatos.setearParametro("@Documento", documento);
             SqlDataReader lector = null;
-            cliente c = null;
+            Cliente c = null;
 
             try
             {
@@ -37,7 +37,7 @@ namespace Trabajo_practico_N4
 
                 if (lector.Read())
                 {
-                    c = new cliente
+                    c = new Cliente
                     {
                         Id = (int)lector["Id"],
                         Documento = lector["Documento"].ToString(),
@@ -61,7 +61,7 @@ namespace Trabajo_practico_N4
 
             return c; 
         }
-        public void AgregarCliente(cliente nuevoCliente)
+        public void AgregarCliente(Cliente nuevoCliente)
         {
           
             if (nuevoCliente == null)

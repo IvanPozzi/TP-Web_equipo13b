@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Trabajo_practico_N4
+namespace Dominio
 {
-    public class voucher
+    public class Voucher
     {
         public string CodigoVoucher { get; set; }
         public int? IdCliente { get; set; } // Puede ser null

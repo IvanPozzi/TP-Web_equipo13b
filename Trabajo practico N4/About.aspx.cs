@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Dominio;
+using Negocio;
 
 namespace Trabajo_practico_N4
 {
@@ -24,7 +26,7 @@ namespace Trabajo_practico_N4
                 VoucherNegocio voucherNegocio = new VoucherNegocio();
 
                 // Llama al método para obtener el voucher
-                voucher v = voucherNegocio.ObtenerVoucherPorCodigo(codigoVoucher);
+                Voucher v = voucherNegocio.ObtenerVoucherPorCodigo(codigoVoucher);
 
                 if (v != null && v.FechaCanje == null)
                 {

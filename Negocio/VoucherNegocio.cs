@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
-using static Trabajo_practico_N4.AcsesoDatos;
+using Dominio;
 
 
 
-namespace Trabajo_practico_N4
+namespace Negocio
 {
     public class VoucherNegocio
     {
@@ -19,7 +19,7 @@ namespace Trabajo_practico_N4
         }
 
         
-        public voucher ObtenerVoucherPorCodigo(string codigoVoucher)
+        public Voucher ObtenerVoucherPorCodigo(string codigoVoucher)
         {
             
             if (string.IsNullOrWhiteSpace(codigoVoucher))
@@ -33,7 +33,7 @@ namespace Trabajo_practico_N4
             accesoDatos.setearConsulta(consulta);
             accesoDatos.setearParametro("@CodigoVoucher", codigoVoucher);
             SqlDataReader lector = null;
-            voucher v = null;
+            Voucher v = null;
 
             try
             {
@@ -43,7 +43,7 @@ namespace Trabajo_practico_N4
                 
                 if (lector.Read())
                 {
-                    v = new voucher
+                    v = new Voucher
                     {
                         CodigoVoucher = lector["CodigoVoucher"].ToString(),
                         IdCliente = lector["IdCliente"] as int?,

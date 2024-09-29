@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using static System.Net.Mime.MediaTypeNames;
-using static Trabajo_practico_N4.AcsesoDatos;
+using Dominio;
+using Negocio;
 
 namespace Trabajo_practico_N4
 {
@@ -23,7 +24,7 @@ namespace Trabajo_practico_N4
                 string dni = TexboxDNI.Text;
 
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
-                cliente cliente = clienteNegocio.ObtenerClientePorDNI(dni);
+                Cliente cliente = clienteNegocio.ObtenerClientePorDNI(dni);
 
 
                 if (cliente != null)
