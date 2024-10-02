@@ -30,14 +30,19 @@ namespace Trabajo_practico_N4
 
                 if (v != null && v.FechaCanje == null)
                 {
-                    Response.Redirect("DatosParticipante.aspx");
+                    Response.Redirect("Premios.aspx");
                 }
-                else if (v.FechaCanje != null)
+                else if (v != null)
                 {
                     lblResultado.Text = "El voucher ya fue utilizado el " + v.FechaCanje.Value.ToShortDateString();
-                    lblResultado.ForeColor = System.Drawing.Color.White;
+                    lblResultado.ForeColor = System.Drawing.Color.Red;
                 }
-          
+                else
+                {
+                    lblResultado.Text = "Error voucher no válido.";
+                    lblResultado.ForeColor = System.Drawing.Color.Red;
+                }
+
             }
             catch (Exception ex)
             {

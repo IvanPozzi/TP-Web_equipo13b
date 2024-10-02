@@ -99,6 +99,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DetallesArticulo.aspx" />
     <Content Include="VoucherForm.aspx" />
     <Content Include="banner.jpg" />
     <Content Include="Content\boton.css" />
@@ -124,7 +125,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Content\espaciomargen.css" />
     <Content Include="favicon.ico" />
-    <Content Include="eligetupremio.aspx" />
+    <Content Include="ListaPremios.aspx" />
     <Content Include="DatosParticipante.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\margenlabelytextbox.css" />
@@ -192,6 +193,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="DetallesArticulo.aspx.cs">
+      <DependentUpon>DetallesArticulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetallesArticulo.aspx.designer.cs">
+      <DependentUpon>DetallesArticulo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VoucherForm.aspx.cs">
       <DependentUpon>VoucherForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -214,12 +222,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="eligetupremio.aspx.cs">
-      <DependentUpon>eligetupremio.aspx</DependentUpon>
+    <Compile Include="ListaPremios.aspx.cs">
+      <DependentUpon>ListaPremios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="eligetupremio.aspx.designer.cs">
-      <DependentUpon>eligetupremio.aspx</DependentUpon>
+    <Compile Include="ListaPremios.aspx.designer.cs">
+      <DependentUpon>ListaPremios.aspx</DependentUpon>
     </Compile>
     <Compile Include="DatosParticipante.aspx.cs">
       <DependentUpon>DatosParticipante.aspx</DependentUpon>
