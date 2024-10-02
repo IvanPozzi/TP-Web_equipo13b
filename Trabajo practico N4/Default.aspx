@@ -4,9 +4,14 @@
     <link href="Content/StyleSheet1.css" rel="stylesheet" />
 
     <main>
+
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">Promo Gana!</h1>
-            <p class="lead">Canjea tu voucher otorgado por tu compra , y participa del sorteo de increibles premios.</p>
+             <div class="banner">
+                 <div id="filtro">
+                     <h1 class="align-middle" id="aspnetTitle">Promo Gana!</h1>
+                     <p>Canjea tu voucher otorgado por tu compra , y participa del sorteo de increibles premios.</p>
+                 </div>
+            </div>
         </section>
 
         <div class="row">
@@ -16,7 +21,7 @@
               Para canjear tu voucher, dirígete al menú principal y selecciona la opción "Canjear Voucher". Alternativamente, puedes hacer clic en el botón que se encuentra justo debajo para completar el proceso de manera rápida y sencilla.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="/About.aspx">click aca! &raquo;</a>
+                    <a class="btn btn-default" href="/VoucherForm.aspx">click aca! &raquo;</a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">

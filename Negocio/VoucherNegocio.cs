@@ -32,23 +32,23 @@ namespace Negocio
 
             accesoDatos.setearConsulta(consulta);
             accesoDatos.setearParametro("@CodigoVoucher", codigoVoucher);
-            SqlDataReader lector = null;
+            //SqlDataReader lector = null;
             Voucher v = null;
 
             try
             {
                 accesoDatos.ejecutarLectura();
-                lector = accesoDatos.Lector;
+                //accesoDatos = accesoDatos.Lector;
 
                 
-                if (lector.Read())
+                if (accesoDatos.Lector.Read())
                 {
                     v = new Voucher
                     {
-                        CodigoVoucher = lector["CodigoVoucher"].ToString(),
-                        IdCliente = lector["IdCliente"] as int?,
-                        FechaCanje = lector["FechaCanje"] as DateTime?,
-                        IdArticulo = lector["IdArticulo"] as int?
+                        CodigoVoucher = accesoDatos.Lector["CodigoVoucher"].ToString(),
+                        IdCliente = accesoDatos.Lector["IdCliente"] as int?,
+                        FechaCanje = accesoDatos.Lector["FechaCanje"] as DateTime?,
+                        IdArticulo = accesoDatos.Lector["IdArticulo"] as int?
                     };
                 }
             }

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Formulario para participar" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Datosdelparticipante.aspx.cs" Inherits="Trabajo_practico_N4.Formulario_web11" %>
+﻿<%@ Page Title="Formulario para participar" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DatosParticipante.aspx.cs" Inherits="Trabajo_practico_N4.Formulario_web11" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Content/StyleSheet1.css" rel="stylesheet" />
     <link href="Content/boton.css" rel="stylesheet" />

@@ -30,7 +30,7 @@ namespace Trabajo_practico_N4
 
                 if (v != null && v.FechaCanje == null)
                 {
-                    Response.Redirect("Datosdelparticipante.aspx");
+                    Response.Redirect("DatosParticipante.aspx");
                 }
                 else if (v.FechaCanje != null)
                 {

@@ -99,7 +99,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="VoucherForm.aspx" />
+    <Content Include="banner.jpg" />
     <Content Include="Content\boton.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -124,9 +125,10 @@
     <Content Include="Content\espaciomargen.css" />
     <Content Include="favicon.ico" />
     <Content Include="eligetupremio.aspx" />
-    <Content Include="Datosdelparticipante.aspx" />
+    <Content Include="DatosParticipante.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\margenlabelytextbox.css" />
+    <Content Include="img\banner.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -190,12 +192,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="VoucherForm.aspx.cs">
+      <DependentUpon>VoucherForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="VoucherForm.aspx.designer.cs">
+      <DependentUpon>VoucherForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">
@@ -219,12 +221,12 @@
     <Compile Include="eligetupremio.aspx.designer.cs">
       <DependentUpon>eligetupremio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Datosdelparticipante.aspx.cs">
-      <DependentUpon>Datosdelparticipante.aspx</DependentUpon>
+    <Compile Include="DatosParticipante.aspx.cs">
+      <DependentUpon>DatosParticipante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Datosdelparticipante.aspx.designer.cs">
-      <DependentUpon>Datosdelparticipante.aspx</DependentUpon>
+    <Compile Include="DatosParticipante.aspx.designer.cs">
+      <DependentUpon>DatosParticipante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
