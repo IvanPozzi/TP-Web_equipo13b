@@ -31,7 +31,7 @@
                     <div >
                     <asp:TextBox ID="TextBoxnombre" runat="server"></asp:TextBox>
                     </div>
-                       <asp:Label ID="Labelerrornombre" runat="server" Text="El nombre no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
+                       <asp:Label ID="Labelerrornombre" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
                </div>
             
                 <td>
@@ -40,6 +40,7 @@
                 <div>
                     <asp:TextBox ID="TextBoxapellido" runat="server"></asp:TextBox>
                 </div>
+                      <asp:Label ID="Labelerrorapellido" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
                     </div>
                 </td>
 
@@ -56,7 +57,7 @@
                 <asp:TextBox ID="TextBoxemail" runat="server"></asp:TextBox>
 
                 </div>
-
+                    <asp:Label ID="LabelErrorEmail" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
                 </div>
 
                 </td>

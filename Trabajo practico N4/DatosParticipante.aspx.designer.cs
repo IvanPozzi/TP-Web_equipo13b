@@ -87,6 +87,15 @@ namespace Trabajo_practico_N4
         protected global::System.Web.UI.WebControls.TextBox TextBoxapellido;
 
         /// <summary>
+        /// Control Labelerrorapellido.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Labelerrorapellido;
+
+        /// <summary>
         /// Control Labelemail.
         /// </summary>
         /// <remarks>
@@ -103,6 +112,15 @@ namespace Trabajo_practico_N4
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxemail;
+
+        /// <summary>
+        /// Control LabelErrorEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelErrorEmail;
 
         /// <summary>
         /// Control Labeldireccion.

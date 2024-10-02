@@ -65,6 +65,7 @@ namespace Trabajo_practico_N4
             
             LabelErrorDNI.Visible = false;
             Labelerrornombre.Visible = false;
+            LabelErrorEmail.Visible = false;
 
             // Validaciones para dni:
             if (string.IsNullOrEmpty(TexboxDNI.Text.Trim()))
@@ -106,11 +107,48 @@ namespace Trabajo_practico_N4
                 Labelerrornombre.Visible = true;
                 return;
             }
+            // Validaciones para apellido:
+            if (string.IsNullOrEmpty(TextBoxapellido.Text.Trim()))
+            {
+                Labelerrorapellido.Text = "El apellido no puede estar vacío.";
+                Labelerrorapellido.Visible = true;
+                return;
+            }
+            if (!Regex.IsMatch(TextBoxapellido.Text.Trim(), pattern))
+            {
+                Labelerrorapellido.Text = "El apellido solo puede contener letras y espacios.";
+                Labelerrorapellido.Visible = true;
+                return;
+            }
+            // Validacion para Email:
+            LabelErrorEmail.Visible = false;
+
+            
+            if (string.IsNullOrEmpty(TextBoxemail.Text.Trim()))
+            {
+                LabelErrorEmail.Text = "El email no puede estar vacío.";
+                LabelErrorEmail.Visible = true;
+                return; 
+            }
+
+            
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            
+            if (!Regex.IsMatch(TextBoxemail.Text.Trim(), emailPattern))
+            {
+                LabelErrorEmail.Text = "El email no es válido.";
+                LabelErrorEmail.Visible = true;
+                return; 
+            }
 
 
+         
 
+            Labelerrorapellido.Visible = false;
             LabelErrorDNI.Visible = false;
             Labelerrornombre.Visible = false;
+            LabelErrorEmail.Visible = false;
 
 
 
