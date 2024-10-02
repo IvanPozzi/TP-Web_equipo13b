@@ -1,23 +1,54 @@
 ﻿body {
-    background-image: url('https://i.pinimg.com/1200x/44/3d/19/443d19adbb6b1bae567680bbdf3c681e.jpg'); /* URL de tu imagen */
-    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    /*background-image: url('https://i.pinimg.com/1200x/44/3d/19/443d19adbb6b1bae567680bbdf3c681e.jpg');  URL de tu imagen 
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla 
+    background-repeat: no-repeat; /* Evita que la imagen se repita 
     background-position: center center; /* Centra la imagen en la página */
-    color: #fff; /* Letras en blanco para contrastar con la imagen */
-    height: 100vh; /* Asegúrate de que el body ocupe toda la altura de la ventana */
+    /*color: #fff; /* Letras en blanco para contrastar con la imagen */
+    /*height: 100vh;  Asegúrate de que el body ocupe toda la altura de la ventana */
     margin: 0; /* Elimina el margen predeterminado del body */
 }
 
 main {
     margin: 0; /* Elimina margen del main */
     padding: 0; /* Elimina relleno del main */
+    overflow:hidden;
 }
 
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-position: top;
+    background-position-y: -150px;
+    padding: 0;
+    color: white;
+    text-align:center;
+    margin-bottom: 40px;
+
+}
+
+#filtro {
+    width: 100%;
+    height: 100%;
+    background-color: #0000008a;
+    box-shadow: 0px 0px 70px 0px #000 inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#filtro a{
+    font-weight:400;
+}
+
+
 /* Cambia el color de los enlaces si lo deseas */
-a {
+    a {
     color: #fff; /* Enlaces en blanco */
 }
 
-    a:hover {
-        color: #c0c0c0; /* Enlaces en gris claro al pasar el ratón */
-    }
+a:hover {
+    color: #c0c0c0; /* Enlaces en gris claro al pasar el ratón */
+}
