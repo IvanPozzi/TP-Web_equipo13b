@@ -66,6 +66,8 @@ namespace Trabajo_practico_N4
             LabelErrorDNI.Visible = false;
             Labelerrornombre.Visible = false;
             LabelErrorEmail.Visible = false;
+            Labelerrorapellido.Visible = false;
+            LabelErrorDireccion.Visible = false;
 
             // Validaciones para dni:
             if (string.IsNullOrEmpty(TexboxDNI.Text.Trim()))
@@ -142,9 +144,96 @@ namespace Trabajo_practico_N4
                 return; 
             }
 
+            //Validacion para direccion :
 
-         
+            LabelErrorDireccion.Visible = false;
 
+
+            if (string.IsNullOrEmpty(TextBoxdireccion.Text.Trim()))
+            {
+                LabelErrorDireccion.Text = "La Direccion no puede estar vacío.";
+                LabelErrorDireccion.Visible = true;
+                return;
+            }
+
+
+            string direccionPattern = @"^[a-zA-Z0-9áéíóúÁÉÍÓÚ\s.,-]+$";
+
+
+            if (!Regex.IsMatch(TextBoxdireccion.Text.Trim(), direccionPattern))
+            {
+                LabelErrorDireccion.Text = "La Direccion no es válido.";
+                LabelErrorDireccion.Visible = true;
+                return;
+            }
+
+            //Validaciones para ciudad :
+
+            if (string.IsNullOrEmpty(TextBoxciudad.Text.Trim()))
+            {
+
+                Labelerrorciudad.Text = "El campo ciudad no puede estar vacio";
+                Labelerrorciudad.Visible = true;
+                return;
+            }
+
+            string ciudadParttern = @"^[a-zA-ZáéíóúÁÉÍÓÚ0-9\s]+$";
+
+            if (!Regex.IsMatch(TextBoxciudad.Text.Trim(), ciudadParttern))
+            {
+                Labelerrorciudad.Text = "La Direccion no es válido.";
+                Labelerrorciudad.Visible = true;
+                return;
+            }
+
+            //Validacion codigo postal
+
+            if (string.IsNullOrEmpty(TextBoxcp.Text.Trim()))
+            {
+                Labelerrorcodigopostal.Text = "El campo código postal no puede estar vacío.";
+                Labelerrorcodigopostal.Visible = true;
+                return;
+            }
+
+            
+            string codigoPostalPattern = @"^[A-Za-z0-9]+$"; 
+
+            if (!Regex.IsMatch(TextBoxcp.Text.Trim(), codigoPostalPattern))
+            {
+                Labelerrorcodigopostal.Text = "El código postal debe seguir el formato correcto (por ejemplo, C1000).";
+                Labelerrorcodigopostal.Visible = true;
+                return;
+            }
+
+            if (TextBoxcp.Text.Trim().Length < 4 || TextBoxcp.Text.Trim().Length > 10)
+            {
+                Labelerrorcodigopostal.Text = "El código postal debe tener entre 4 y 10 caracteres.";
+                Labelerrorcodigopostal.Visible = true;
+                return;
+            }
+
+            // validacion de este palometeado el checkbox:
+
+            if (!CheckBox1.Checked)
+            {
+               
+                Labelterminosycondiciones.Text = "Debe aceptar los términos y condiciones.";
+                Labelterminosycondiciones.ForeColor = System.Drawing.Color.Red; 
+                Labelterminosycondiciones.Visible = true;
+
+                return;
+
+            }
+            else
+            {
+                
+                Labelterminosycondiciones.Text = ""; 
+                Labelterminosycondiciones.Visible = false;
+              
+            }
+
+            Labelerrorcodigopostal.Visible = false;
+            Labelerrorciudad.Visible = false;
             Labelerrorapellido.Visible = false;
             LabelErrorDNI.Visible = false;
             Labelerrornombre.Visible = false;

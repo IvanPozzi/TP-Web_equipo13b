@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosparticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\listapremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\listapremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\datosparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\datosparticipante.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosparticipante.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\trabajo practico n4\\listapremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\listapremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DatosParticipante.aspx",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx",
               "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ListaPremios.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx.cs",
               "RelativeDocumentMoniker": "Trabajo practico N4\\ListaPremios.aspx.cs",
@@ -136,20 +136,20 @@
               "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx.cs",
               "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.cs",
               "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAAAH0AAAAMAAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAPoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T14:29:52.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DatosParticipante.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
               "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
               "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
               "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T14:48:16.607Z"
             },

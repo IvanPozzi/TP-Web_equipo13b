@@ -79,7 +79,7 @@
                             <asp:TextBox ID="TextBoxdireccion" runat="server"></asp:TextBox>
 
                       </div>
-
+                          <asp:Label ID="LabelErrorDireccion" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
 
                      </div>
                  </td>
@@ -95,7 +95,8 @@
              <asp:TextBox ID="TextBoxciudad" runat="server"></asp:TextBox>
 
        </div>
-
+             
+             <asp:Label ID="Labelerrorciudad" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
 
       </div >
   </td>
@@ -111,6 +112,7 @@
 
       </div>
 
+            <asp:Label ID="Labelerrorcodigopostal" runat="server" Text="El campo no puede estar vacio" ForeColor="Red" Visible="false"></asp:Label>
 
      </div>
  </td>

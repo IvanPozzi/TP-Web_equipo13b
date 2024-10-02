@@ -141,6 +141,15 @@ namespace Trabajo_practico_N4
         protected global::System.Web.UI.WebControls.TextBox TextBoxdireccion;
 
         /// <summary>
+        /// Control LabelErrorDireccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelErrorDireccion;
+
+        /// <summary>
         /// Control Labelciudad.
         /// </summary>
         /// <remarks>
@@ -159,6 +168,15 @@ namespace Trabajo_practico_N4
         protected global::System.Web.UI.WebControls.TextBox TextBoxciudad;
 
         /// <summary>
+        /// Control Labelerrorciudad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Labelerrorciudad;
+
+        /// <summary>
         /// Control Labelcp.
         /// </summary>
         /// <remarks>
@@ -175,6 +193,15 @@ namespace Trabajo_practico_N4
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxcp;
+
+        /// <summary>
+        /// Control Labelerrorcodigopostal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Labelerrorcodigopostal;
 
         /// <summary>
         /// Control CheckBox1.
