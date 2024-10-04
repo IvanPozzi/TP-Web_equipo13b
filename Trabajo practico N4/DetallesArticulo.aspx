@@ -33,19 +33,21 @@
             <label class="detalles descripcion">
                 <asp:Label ID="lblDescripcion" runat="server"></asp:Label>
             </label> 
+
+            <asp:Button ID="btnSeleccionar" runat="server" CssClass="btn btn-primary btn-form" Text="Participar" CommandName="ArticuloId" CommandArgument='<%:articulo.Id%>' OnClick="btnSeleccionar_Click" />
         </div>
 
         <div class="detalles-img">
 
-            <% %><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-                <div class="carousel-inner">
+                <div class="carousel-inner marco">
                     <%bool primeraImagen = false; %>
                     <%foreach (Dominio.Imagen imagen in articulo.Imagen){ %>
 
                         <div class="carousel-item <%if (!primeraImagen) {%> active <%; primeraImagen = true;} %>">
 
-                            <img class="d-block w-100" src="<%:imagen.ToString()%>" class="card-img-top" alt="First slide">
+                            <img class="d-block w-100" src="<%:imagen.ToString()%>"  alt="First slide">
                         </div>
                     <%}%>
                                      
@@ -58,7 +60,9 @@
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-</button>
+                </button>
+
+                
             </div>
 
 

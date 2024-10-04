@@ -12,6 +12,7 @@ main {
     margin: 0; /* Elimina margen del main */
     padding: 0; /* Elimina relleno del main */
     overflow:hidden;
+    text-align:center;
 }
 
 .banner {
@@ -43,6 +44,21 @@ main {
     font-weight:400;
 }
 
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #e6e6e6;
+}
+
+.form h3{
+    margin-bottom: 20px;
+}
+
 
 /* Cambia el color de los enlaces si lo deseas */
     a {
@@ -52,3 +68,75 @@ main {
 a:hover {
     color: #c0c0c0; /* Enlaces en gris claro al pasar el ratón */
 }
+
+
+.descripcion {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.detalles-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.detalles {
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.detalles span {
+    font-weight: 400;
+}
+
+.detalles-info {
+    width: 60%;
+    padding: 25px;
+}
+
+.detalles-img{
+    width: 30%;
+}
+
+
+.marco {
+    min-height: 600px;
+}
+
+img {
+    width: auto !important;
+    height: 100%;
+}
+
+.btn-form {
+    display: block!important;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form-user{
+    align-items:start;
+}
+
+.form-user span{
+    margin: 5px 10px;
+}
+
+.input-form {
+    margin-bottom: 15px
+}
+
+footer {
+    width: 100%;
+    border-top:1px solid #ccc ;
+    margin-top:60px;
+    padding-top:40px;
+    text-align: center;
+
+}
+

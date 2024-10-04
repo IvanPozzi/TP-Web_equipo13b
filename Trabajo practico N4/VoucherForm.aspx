@@ -5,15 +5,18 @@
         
         <h2 id="title"><%: Title %>.</h2>
 
-        <h3>Ingresa el codigo de tu voucher!</h3>
+       
             <p>Luego presiona en el boton siguiente.</p>
 
-        <div class="form">
-            <asp:TextBox ID="Texcodigovoucher" runat="server"></asp:TextBox>
-            <asp:Button ID="Btnsiguiente" runat="server" Text="Siguiente" CssClass="customButton" OnClick="Btnsiguiente_Click"/>
+        <div class="form col-5">
+             <h3>Ingresa el codigo de tu voucher!</h3>
+
+            <asp:TextBox ID="Texcodigovoucher" for="validationCustom01" CssClass="form-control" runat="server"></asp:TextBox>
+            <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+            <asp:Button ID="Btnsiguiente" runat="server" Text="Siguiente" CssClass="btn btn-primary btn-form" OnClick="Btnsiguiente_Click"/>
         <div>
 
-        <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+        
         </div>
         </div>
         </main>

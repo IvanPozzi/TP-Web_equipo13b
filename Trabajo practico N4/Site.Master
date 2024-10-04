@@ -61,9 +61,9 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+
+            <footer class=".bg-dark">
+                <p>&copy; <%: DateTime.Now.Year %> - Grupo 13B- ASP.NET</p>
             </footer>
         </div>
     </form>

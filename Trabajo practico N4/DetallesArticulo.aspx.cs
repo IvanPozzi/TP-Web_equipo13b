@@ -40,5 +40,19 @@ namespace Trabajo_practico_N4
             }
             
         }
+
+        protected void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Response.Redirect($"DatosParticipante.aspx?ArticuloId={articulo.Id}");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
+        }
     }
 }
