@@ -18,6 +18,12 @@ namespace Trabajo_practico_N4
             Articulonegocio negocio = new Articulonegocio();
             listaArticulos = negocio.listar();
 
+            if (!IsPostBack)
+            {
+                repRepetidor.DataSource = listaArticulos;
+                repRepetidor.DataBind();
+            }
+
         }
 
         protected void repRepetidor_ItemCommand(object source, RepeaterCommandEventArgs e)
