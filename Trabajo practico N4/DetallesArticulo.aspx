@@ -1,13 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DetallesArticulo.aspx.cs" Inherits="Trabajo_practico_N4.DetallesArticulo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <%if (articulo == null || articulo.Id == 0)
-        {
-            articulo.Id = 1;
-            Response.Redirect("VoucherForm.aspx?error=invalid");
-        }
-    %>
-
     <section class="detalles-container">
         <div class="detalles-info">
             <label class="detalles">

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
+using Microsoft.Ajax.Utilities;
 using Negocio;
 
 namespace Trabajo_practico_N4
@@ -14,13 +15,19 @@ namespace Trabajo_practico_N4
         public Articulo articulo { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-            articulo = new Articulo();
-            Articulonegocio negocio = new Articulonegocio();
+
+            if (Session["sesion"] == null)
+            {
+                Response.Redirect("VoucherForm.aspx?error=invalid");
+            }
 
             try
             {
                 if (Request.QueryString["Id"] != null)
                 {
+                    articulo = new Articulo();
+                    Articulonegocio negocio = new Articulonegocio();
+
                     int id = int.Parse(Request.QueryString["Id"]);
                     articulo = negocio.buscarPorId(id);
 
@@ -30,8 +37,13 @@ namespace Trabajo_practico_N4
                     lblCategoria.Text = articulo.Categoria.ToString();
                     lblDescripcion.Text = articulo.Descripcion.ToString();
                     lblPrecio.Text = articulo.Precio.ToString();
-                    
+
                 }
+                else
+                {
+                    Response.Redirect("VoucherForm.aspx?error=invalid");
+                }
+ 
             }
             catch (Exception)
             {
@@ -45,7 +57,8 @@ namespace Trabajo_practico_N4
         {
             try
             {
-                Response.Redirect($"DatosParticipante.aspx?ArticuloId={articulo.Id}");
+                Session.Add("ArticuloId", articulo.Id);
+                Response.Redirect($"DatosParticipante.aspx");
             }
             catch (Exception)
             {

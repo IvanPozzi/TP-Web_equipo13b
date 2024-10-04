@@ -30,6 +30,9 @@ namespace Trabajo_practico_N4
 
                 if (v != null && v.FechaCanje == null)
                 {
+                    Session.Add("sesion", true);
+                    Session.Add("Voucher", v.CodigoVoucher);
+
                     Response.Redirect("ListaPremios.aspx");
                 }
                 else if (v != null)

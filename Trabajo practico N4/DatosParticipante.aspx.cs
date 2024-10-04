@@ -13,9 +13,14 @@ namespace Trabajo_practico_N4
 {
     public partial class Formulario_web11 : System.Web.UI.Page
     {
+        public Cliente cliente { get; set; }
    
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["sesion"] == null)
+            {
+                Response.Redirect("VoucherForm.aspx?error=invalid");
+            }
 
         }
         protected void TexDocumento_TextChanged(object sender, EventArgs e)
@@ -25,7 +30,7 @@ namespace Trabajo_practico_N4
                 string dni = TexboxDNI.Text;
 
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
-                Cliente cliente = clienteNegocio.ObtenerClientePorDNI(dni);
+                cliente = clienteNegocio.ObtenerClientePorDNI(dni);
 
 
                 if (cliente != null)
@@ -227,7 +232,7 @@ namespace Trabajo_practico_N4
             else
             {
                 
-                Labelterminosycondiciones.Text = ""; 
+                Labelterminosycondiciones.Text = "Acepto los terminos y condiciones."; 
                 Labelterminosycondiciones.Visible = false;
               
             }
@@ -242,19 +247,25 @@ namespace Trabajo_practico_N4
 
 
 
-            Cliente cliente = new Cliente();
+            if (cliente == null || cliente.Id == 0)
+            {
+                cliente.Documento = TexboxDNI.Text;
+                cliente.Nombre = TextBoxnombre.Text;
+                cliente.Apellido = TextBoxapellido.Text;
+                cliente.Email = TextBoxemail.Text;
+                cliente.Direccion = TextBoxdireccion.Text;
+                cliente.Ciudad = TextBoxciudad.Text;
+                cliente.CP = int.Parse(TextBoxcp.Text);
 
-            cliente.Documento = TexboxDNI.Text;
-            cliente.Nombre = TextBoxnombre.Text;
-            cliente.Apellido = TextBoxapellido.Text;
-            cliente.Email = TextBoxemail.Text;
-            cliente.Direccion = TextBoxdireccion.Text;  
-            cliente.Ciudad = TextBoxciudad.Text;
-            cliente.CP = int.Parse(TextBoxcp.Text);
+                ClienteNegocio clienteNegocio = new ClienteNegocio();
+                clienteNegocio.AgregarCliente(cliente);
+            }
 
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
 
-            clienteNegocio.AgregarCliente(cliente);
+            
+                       
+
+            
         }
     }
 }
