@@ -13,9 +13,14 @@ namespace Trabajo_practico_N4
 {
     public partial class Formulario_web11 : System.Web.UI.Page
     {
+        public Cliente cliente { get; set; }
    
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["sesion"] == null)
+            {
+                Response.Redirect("VoucherForm.aspx?error=invalid");
+            }
 
         }
         protected void TexDocumento_TextChanged(object sender, EventArgs e)
@@ -25,7 +30,8 @@ namespace Trabajo_practico_N4
                 string dni = TexboxDNI.Text;
 
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
-                Cliente cliente = clienteNegocio.ObtenerClientePorDNI(dni);
+                cliente = clienteNegocio.ObtenerClientePorDNI(dni);
+                Session.Add("Cliente", cliente);
 
 
                 if (cliente != null)
@@ -196,11 +202,11 @@ namespace Trabajo_practico_N4
             }
 
             
-            string codigoPostalPattern = @"^[A-Za-z0-9]+$"; 
+            string codigoPostalPattern = @"^\d+$"; 
 
             if (!Regex.IsMatch(TextBoxcp.Text.Trim(), codigoPostalPattern))
             {
-                Labelerrorcodigopostal.Text = "El código postal debe seguir el formato correcto (por ejemplo, C1000).";
+                Labelerrorcodigopostal.Text = "El código postal debe seguir el formato correcto , solo puede contener numeros (por ejemplo, 1000).";
                 Labelerrorcodigopostal.Visible = true;
                 return;
             }
@@ -227,7 +233,7 @@ namespace Trabajo_practico_N4
             else
             {
                 
-                Labelterminosycondiciones.Text = ""; 
+                Labelterminosycondiciones.Text = "Acepto los terminos y condiciones."; 
                 Labelterminosycondiciones.Visible = false;
               
             }
@@ -239,22 +245,73 @@ namespace Trabajo_practico_N4
             Labelerrornombre.Visible = false;
             LabelErrorEmail.Visible = false;
 
+            if (Session["Cliente"] != null)
+            {
+                cliente = (Cliente)Session["Cliente"];
+                
+            }
+
+           
+
+            if (cliente == null || cliente.Id == 0)
+            {
+                cliente = new Cliente();
+                cliente.Documento = (String)TexboxDNI.Text;
+                cliente.Nombre = (String)TextBoxnombre.Text;
+                cliente.Apellido = (String)TextBoxapellido.Text;
+                cliente.Email = (String)TextBoxemail.Text;
+                cliente.Direccion = (String)TextBoxdireccion.Text;
+                cliente.Ciudad = (String)TextBoxciudad.Text;
+                cliente.CP = int.Parse(TextBoxcp.Text);
+
+                ClienteNegocio clienteNegocio = new ClienteNegocio();
+                clienteNegocio.AgregarCliente(cliente);
+
+              
+
+                Session["IdCliente"] = clienteNegocio.ObtenerUltimoIdCliente();  
+                Session["FechaCanje"] = DateTime.Now;
+            }
+            else
+            {
+                Session["IdCliente"] = cliente.Id;
+            }
+            try
+            {
+                ClienteNegocio clienteNegocio = new ClienteNegocio();
+               
+                // Recuperar los datos de la sesión
+                string codigoVoucher = Session["Voucher"] as string;
+                int idCliente =(int) Session["IdCliente"];
+                string idArticulo = Session["ArticuloId"] as string; 
+                DateTime fechaCanje = DateTime.Now; 
+
+                
+                Voucher v = new Voucher
+                {
+                    CodigoVoucher = codigoVoucher,
+                    IdCliente = idCliente,
+                    FechaCanje = fechaCanje,
+                    IdArticulo = !string.IsNullOrEmpty(idArticulo) ? (int?)Convert.ToInt32(idArticulo) : null // Convertir a entero
+                };
+                VoucherNegocio voucherNegocio = new VoucherNegocio();
+                
+                voucherNegocio.validarVoucherComoUsado(v);
+
+                // Mostrar un mensaje de éxito o redirigir a otra página si es necesario
+                Session.Remove("Voucher");
+                Session.Remove("ArticuloId");
+                Session.Remove("Cliente");
+            }
+            catch (Exception ex)
+            {
+      
+            }
 
 
 
-            Cliente cliente = new Cliente();
 
-            cliente.Documento = TexboxDNI.Text;
-            cliente.Nombre = TextBoxnombre.Text;
-            cliente.Apellido = TextBoxapellido.Text;
-            cliente.Email = TextBoxemail.Text;
-            cliente.Direccion = TextBoxdireccion.Text;  
-            cliente.Ciudad = TextBoxciudad.Text;
-            cliente.CP = int.Parse(TextBoxcp.Text);
 
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
-
-            clienteNegocio.AgregarCliente(cliente);
         }
     }
 }

@@ -95,5 +95,38 @@ namespace Negocio
                 accesoDatos.cerrarConexion(); // Asegurarse de cerrar la conexión
             }
         }
+        public int ObtenerUltimoIdCliente()
+        {
+            int ultimoId = 0;
+            AccesoDatos accesoDatos = new AccesoDatos();
+
+            try
+            {
+               
+                accesoDatos.setearConsulta("SELECT MAX(Id) FROM Clientes");
+                accesoDatos.ejecutarLectura();
+
+                
+                if (accesoDatos.Lector.Read())
+                {
+                    
+                    if (!accesoDatos.Lector.IsDBNull(0))
+                    {
+                        ultimoId = accesoDatos.Lector.GetInt32(0); 
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                
+                throw new Exception("Error al obtener el último IdCliente: " + ex.Message);
+            }
+            finally
+            {
+                accesoDatos.cerrarConexion(); 
+            }
+
+            return ultimoId; 
+        }
     }
 }

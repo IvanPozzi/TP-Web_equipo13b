@@ -64,5 +64,34 @@ namespace Negocio
             
             return v;
         }
+        public void validarVoucherComoUsado(Voucher v)
+        {
+            if (v == null)
+            {
+                throw new ArgumentNullException("El voucher no puede ser nulo");
+            }
+            string consulta = "UPDATE Vouchers " +
+                              "SET IdCliente = @IdCliente, FechaCanje = @FechaCanje, IdArticulo = @IdArticulo " +
+                              "WHERE CodigoVoucher = @CodigoVoucher";
+
+            accesoDatos.setearConsulta(consulta);
+            accesoDatos.setearParametro("@CodigoVoucher", v.CodigoVoucher);
+            accesoDatos.setearParametro("@IdCliente", v.IdCliente ?? (object)DBNull.Value); // Si es null, colocar DBNull
+            accesoDatos.setearParametro("@FechaCanje", v.FechaCanje ?? (object)DBNull.Value); // Si es null, colocar DBNull
+            accesoDatos.setearParametro("@IdArticulo", v.IdArticulo ?? (object)DBNull.Value); // Si es null, colocar DBNull
+
+            try
+            {
+                accesoDatos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al actualizar el Voucher: " + ex.Message);
+            }
+            finally
+            {
+                accesoDatos.cerrarConexion();
+            }
+        }
     }
 }

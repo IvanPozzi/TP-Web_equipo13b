@@ -8,49 +8,30 @@
         <h2 id="title"><%: Title %>.</h2>
        
         <p>Elige entre los siguientes articulos por cual de estos deseas participar.</p>
-
         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <asp:Repeater runat="server" ID="repRepetidor">
+                <ItemTemplate>
 
-            <%foreach(Dominio.Articulo articulo in listaArticulos) { %>
+               
                     <div class="col">
                         <div class="card">
                             <div class="altura-cards">
-                                <div id="carouselExample" class="carousel slide">
-                                    <div class="carousel-inner">
-                                        <%bool bandera = false; %>
-                                         <% foreach (Dominio.Imagen imagen in articulo.Imagen) {  %>
-                                                <div class="carousel-item
-                                                                        <%if(bandera == false) { %>
-                                                                           active
-                                                                        <% ;bandera = true;} %>
-                                                    
-                                                 ">
-                                                   <img src="<%: imagen.ToString() %>" class="card-img-top" alt="...">
-                                                </div>
-                                        <% } %>
-                                       
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><%: articulo.Nombre%></h5>
-                                <p class="card-text"><%: articulo.Descripcion%></p>
-                                <a class="btn btn-secondary" href="DetallesArticulo.aspx?Id=<%#Eval("Id")%>">Ver detalles</a>
-                                <asp:Button ID="btnSeleccionar" runat="server" cssClass="btn btn-primary" Text="Participar"  CommandName="ArticuloId" CommandArgument='<%# Eval("Id")%>'  OnClick="btnSeleccionar_Click"/>
+                                <img src=" <%#Eval("Imagen[0]")%>" class="card-img-top" alt="...">
                             </div>
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><%#Eval("Nombre")%></h5>
+                            <p class="card-text"><%#Eval("Descripcion")%></p>
+                            <a class="btn btn-secondary" href="DetallesArticulo.aspx?Id=<%#Eval("Id")%>">Ver detalles</a>
+                            <asp:Button ID="btnSeleccionar" runat="server" CssClass="btn btn-primary" Text="Participar" CommandName="ArticuloId" CommandArgument='<%# Eval("Id")%>' OnClick="btnSeleccionar_Click" />
+                        </div>
                     </div>
-                <%}%>
+                </ItemTemplate>
+            </asp:Repeater>
         </div>
+
+        
+
 
 
       

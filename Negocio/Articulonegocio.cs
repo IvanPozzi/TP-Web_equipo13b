@@ -325,5 +325,55 @@ namespace Negocio
             }
         }
 
+        public Articulo buscarPorId(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                Articulo aux = new Articulo();
+                datos.setearConsulta(@" SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion, A.IdMarca, M.Descripcion AS MarcaDescripcion, A.IdCategoria, C.Descripcion AS CategoriaDescripcion, A.Precio 
+                                      FROM ARTICULOS A  
+                                      LEFT JOIN MARCAS M ON A.IdMarca = M.Id 
+                                      LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id 
+                                      WHERE A.Id = @id");
+                datos.setearParametro("@Id", id);
+                datos.ejecutarLectura();
+
+                if(datos.Lector.Read())
+                {
+
+                    aux.Id = datos.Lector["Id"] is DBNull ? 0 : (int)datos.Lector["Id"];
+                    aux.Codigo = datos.Lector["Codigo"] is DBNull ? "" : (string)datos.Lector["Codigo"];
+                    aux.Nombre = datos.Lector["Nombre"] is DBNull ? "" : (string)datos.Lector["Nombre"];
+                    aux.Descripcion = datos.Lector["Descripcion"] is DBNull ? "" : (string)datos.Lector["Descripcion"];
+                    aux.IdMarca = datos.Lector["IdMarca"] is DBNull ? 0 : (int)datos.Lector["IdMarca"];
+                    aux.Marca = datos.Lector["MarcaDescripcion"] is DBNull ? "" : (string)datos.Lector["MarcaDescripcion"];
+                    aux.IdCategoria = datos.Lector["IdCategoria"] is DBNull ? 0 : (int)datos.Lector["IdCategoria"];
+                    aux.Categoria = datos.Lector["CategoriaDescripcion"] is DBNull ? "" : (string)datos.Lector["CategoriaDescripcion"];
+
+                    aux.Precio = datos.Lector["Precio"] is DBNull ? 0f : Convert.ToSingle(datos.Lector["Precio"]);
+
+
+                    ImagenesNegocio negocioImagen = new ImagenesNegocio();
+                    aux.Imagen = new List<Imagen>();
+                    aux.Imagen = negocioImagen.listarPorIdArticulo(aux.Id);
+                }
+
+
+                    return aux;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+            
+        }
+
     }
 }

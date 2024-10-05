@@ -17,19 +17,22 @@ namespace Trabajo_practico_N4
         }
         protected void Btnsiguiente_Click(object sender, EventArgs e)
         {
-            // Obtén el código del voucher del TextBox
+            
             string codigoVoucher = Texcodigovoucher.Text.Trim();
 
             try
             {
-                // Crea una instancia de la clase VoucherNegocio
+              
                 VoucherNegocio voucherNegocio = new VoucherNegocio();
 
-                // Llama al método para obtener el voucher
+              
                 Voucher v = voucherNegocio.ObtenerVoucherPorCodigo(codigoVoucher);
 
                 if (v != null && v.FechaCanje == null)
                 {
+                    Session["sesion"] = true;
+                    Session["Voucher"] = v.CodigoVoucher;
+
                     Response.Redirect("ListaPremios.aspx");
                 }
                 else if (v != null)

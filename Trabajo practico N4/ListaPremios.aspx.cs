@@ -15,8 +15,20 @@ namespace Trabajo_practico_N4
         public List<Articulo> listaArticulos {  get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            if (Session["sesion"] == null)
+            {
+                Response.Redirect("VoucherForm.aspx?error=invalid");
+            }
+
             Articulonegocio negocio = new Articulonegocio();
             listaArticulos = negocio.listar();
+
+            if (!IsPostBack)
+            {
+                repRepetidor.DataSource = listaArticulos;
+                repRepetidor.DataBind();
+            }
 
         }
 
@@ -28,7 +40,8 @@ namespace Trabajo_practico_N4
         protected void btnSeleccionar_Click(object sender, EventArgs e)
         {
             string IdArticulo = ((Button)sender).CommandArgument;
-            Response.Redirect($"DatosParticipante.aspx?ArticuloId={IdArticulo}");
+            Session["ArticuloId"] = IdArticulo;
+            Response.Redirect($"DatosParticipante.aspx");
         }
     }
 }
