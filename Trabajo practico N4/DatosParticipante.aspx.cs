@@ -31,6 +31,7 @@ namespace Trabajo_practico_N4
 
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
                 cliente = clienteNegocio.ObtenerClientePorDNI(dni);
+                Session.Add("Cliente", cliente);
 
 
                 if (cliente != null)
@@ -244,17 +245,21 @@ namespace Trabajo_practico_N4
             Labelerrornombre.Visible = false;
             LabelErrorEmail.Visible = false;
 
-
+            if (Session["Cliente"] != null)
+            {
+                cliente = (Cliente)Session["Cliente"];
+            }
 
 
             if (cliente == null || cliente.Id == 0)
             {
-                cliente.Documento = TexboxDNI.Text;
-                cliente.Nombre = TextBoxnombre.Text;
-                cliente.Apellido = TextBoxapellido.Text;
-                cliente.Email = TextBoxemail.Text;
-                cliente.Direccion = TextBoxdireccion.Text;
-                cliente.Ciudad = TextBoxciudad.Text;
+                cliente = new Cliente();
+                cliente.Documento = (String)TexboxDNI.Text;
+                cliente.Nombre = (String)TextBoxnombre.Text;
+                cliente.Apellido = (String)TextBoxapellido.Text;
+                cliente.Email = (String)TextBoxemail.Text;
+                cliente.Direccion = (String)TextBoxdireccion.Text;
+                cliente.Ciudad = (String)TextBoxciudad.Text;
                 cliente.CP = int.Parse(TextBoxcp.Text);
 
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
