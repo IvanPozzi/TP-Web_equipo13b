@@ -298,14 +298,15 @@ namespace Trabajo_practico_N4
                 
                 voucherNegocio.validarVoucherComoUsado(v);
 
-                // Mostrar un mensaje de éxito o redirigir a otra página si es necesario
                 Session.Remove("Voucher");
                 Session.Remove("ArticuloId");
                 Session.Remove("Cliente");
+
+                Response.Redirect($"Exito.aspx");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-      
+                //Response.Redirect("ERROR.aspx");
             }
 
 

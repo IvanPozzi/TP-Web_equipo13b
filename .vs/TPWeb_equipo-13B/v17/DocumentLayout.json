@@ -1,78 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\DatosParticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|c:\\users\\usuario\\onedrive\\escritorio\\tpdescargado\\tp-web_equipo13b-main\\trabajo practico n4\\datosparticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosparticipante.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\datosparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\datosparticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\error.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\error.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5C2DE0-25FD-4E36-A6F7-AF9E04F8624D}|Dominio\\Dominio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5C2DE0-25FD-4E36-A6F7-AF9E04F8624D}|Dominio\\Dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6223118D-0BEA-4C9A-816E-0BA0D5C1D146}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\content\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\bootstrap.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\DatosParticipante.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\content\\espaciomargen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\content\\espaciomargen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\ListaPremios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\VoucherForm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\DatosParticipante.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\ListaPremios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\Default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DetallesArticulo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\DetallesArticulo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\Site.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\VoucherForm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\StyleSheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trabajo practico N4\\Content\\StyleSheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\trabajo practico n4\\error.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB093AC-8FC6-4138-B9E0-D52173735A44}|Trabajo practico N4\\Trabajo practico N4.csproj|solutionrelative:trabajo practico n4\\error.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,232 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exito.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Exito.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Exito.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Exito.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\Exito.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T16:52:15.903Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatosParticipante.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\DatosParticipante.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\DatosParticipante.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T18:32:44.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "Negocio\\AccesoDatos.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:37:44.504Z"
+              "DocumentIndex": 4,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\Site.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\Site.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-05T18:30:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bootstrap.rtl.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\bootstrap.rtl.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\bootstrap.rtl.css",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\bootstrap.rtl.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\bootstrap.rtl.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-05T18:25:29.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DatosParticipante.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx",
-              "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx",
+              "Title": "espaciomargen.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\espaciomargen.css",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\espaciomargen.css",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\Content\\espaciomargen.css",
+              "RelativeToolTip": "Trabajo practico N4\\Content\\espaciomargen.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-05T18:25:14.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ERROR.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\ERROR.aspx.cs",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\ERROR.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\ERROR.aspx.cs",
+              "RelativeToolTip": "Trabajo practico N4\\ERROR.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:54:53.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ERROR.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\ERROR.aspx",
+              "RelativeDocumentMoniker": "Trabajo practico N4\\ERROR.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\ERROR.aspx",
+              "RelativeToolTip": "Trabajo practico N4\\ERROR.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:19:57.39Z"
+              "WhenOpened": "2024-10-05T17:50:13.77Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DatosParticipante.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\DatosParticipante.aspx.cs",
               "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\tpdescargado\\TP-Web_equipo13b-main\\Trabajo practico N4\\DatosParticipante.aspx.cs",
               "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx.cs",
-              "ViewState": "AQIAAAkBAAAAAAAAAAAAABMBAAANAAAA",
+              "ViewState": "AQIAACUBAAAAAAAAAAAcwDIBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T14:29:52.351Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListaPremios.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx.cs",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\ListaPremios.aspx.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx.cs",
-              "RelativeToolTip": "Trabajo practico N4\\ListaPremios.aspx.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:17:35.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\ClienteNegocio.cs",
-              "RelativeToolTip": "Negocio\\ClienteNegocio.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAGgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:57:09.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VoucherNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\VoucherNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\VoucherNegocio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\VoucherNegocio.cs",
-              "RelativeToolTip": "Negocio\\VoucherNegocio.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAuwFIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T11:45:22.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VoucherForm.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx.cs",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\VoucherForm.aspx.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx.cs",
-              "RelativeToolTip": "Trabajo practico N4\\VoucherForm.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:17:35.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "Dominio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Dominio\\Cliente.cs",
-              "RelativeToolTip": "Dominio\\Cliente.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:51:57.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatosParticipante.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
-              "RelativeToolTip": "Trabajo practico N4\\DatosParticipante.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:48:16.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ListaPremios.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\ListaPremios.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\ListaPremios.aspx",
-              "RelativeToolTip": "Trabajo practico N4\\ListaPremios.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:17:35.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\Default.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx",
-              "RelativeToolTip": "Trabajo practico N4\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:29:19.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.cs",
-              "RelativeToolTip": "Trabajo practico N4\\Default.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:29:22.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Default.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\Default.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Default.aspx.designer.cs",
-              "RelativeToolTip": "Trabajo practico N4\\Default.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:29:31.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DetallesArticulo.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DetallesArticulo.aspx",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\DetallesArticulo.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\DetallesArticulo.aspx",
-              "RelativeToolTip": "Trabajo practico N4\\DetallesArticulo.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:17:35.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Articulonegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\Articulonegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\Articulonegocio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Negocio\\Articulonegocio.cs",
-              "RelativeToolTip": "Negocio\\Articulonegocio.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAgwL8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:17:35.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Master",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\Site.Master",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Site.Master",
-              "RelativeToolTip": "Trabajo practico N4\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:17:35.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VoucherForm.aspx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\VoucherForm.aspx",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\VoucherForm.aspx",
-              "RelativeToolTip": "Trabajo practico N4\\VoucherForm.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T14:17:35.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StyleSheet1.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\StyleSheet1.css",
-              "RelativeDocumentMoniker": "Trabajo practico N4\\Content\\StyleSheet1.css",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TP Web [Promo Web]\\Trabajo practico N4\\Content\\StyleSheet1.css",
-              "RelativeToolTip": "Trabajo practico N4\\Content\\StyleSheet1.css",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-02T14:17:35.633Z"
             }
           ]
         }

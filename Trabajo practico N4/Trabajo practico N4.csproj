@@ -100,6 +100,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DetallesArticulo.aspx" />
+    <Content Include="ERROR.aspx" />
+    <Content Include="Exito.aspx" />
     <Content Include="VoucherForm.aspx" />
     <Content Include="banner.jpg" />
     <Content Include="Content\boton.css" />
@@ -199,6 +201,20 @@
     </Compile>
     <Compile Include="DetallesArticulo.aspx.designer.cs">
       <DependentUpon>DetallesArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERROR.aspx.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERROR.aspx.designer.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exito.aspx.cs">
+      <DependentUpon>Exito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exito.aspx.designer.cs">
+      <DependentUpon>Exito.aspx</DependentUpon>
     </Compile>
     <Compile Include="VoucherForm.aspx.cs">
       <DependentUpon>VoucherForm.aspx</DependentUpon>

@@ -19,3 +19,31 @@ textarea {
         padding: 0;
     }
 }
+.centrar-texto {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 50vh; /* Ocupa toda la altura del viewport */
+    text-align: center; /* Asegura que el texto esté centrado dentro del elemento */
+}
+
+h1 {
+    margin-bottom: 1px;
+}
+.mi-boton {
+    background-color: blue; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Eliminar borde */
+    padding: 10px 20px; /* Añadir un poco de padding */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor a mano cuando pases el ratón */
+}
+.centrado {
+    text-align: center; /* Centrar el contenido dentro del div */
+}
+.mi-texto-error {
+    color: red;
+}
+.error-title {
+    margin-bottom: 5px; /* Ajusta la separación entre h1 y h2 */
+}
